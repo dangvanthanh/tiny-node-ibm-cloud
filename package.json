@@ -1,0 +1,25 @@
+{
+  "name": "tiny-node-ibm-cloud",
+  "version": "1.0.0",
+  "description": "Tiny Node IBM Cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangvanthanh/tiny-node-ibm-cloud.git"
+  },
+  "author": "Dang Van Thanh <chieuhue@gmail.com> (dangthanh.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangvanthanh/tiny-node-ibm-cloud/issues"
+  },
+  "homepage": "https://github.com/dangvanthanh/tiny-node-ibm-cloud#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cfenv": "^1.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
